@@ -102,6 +102,16 @@
 
 <div align="center">
 
+## 🥷 Detection
+
+**Completely undetected by every Antivirus**
+
+<img src="assets/image.png" style="border-radius: 50%;" />
+
+<div align="center">
+  
+### 👁️ **Preview**
+
 ![Demo](assets/connect.gif)
 ![Demo](assets/upload.gif)
 ![Demo](assets/stream.gif)
@@ -109,14 +119,6 @@
 ![Demo](assets/implode.gif)
 
 </div>
-
-<div align="center">
-
-## 🥷 Detection
-
-**Completely undetected by every Antivirus**
-
-<img src="assets/image.png" style="border-radius: 50%;" />
 
 <div align="center">
 
