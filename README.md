@@ -100,11 +100,15 @@
 
 ---
 
+<div align="center">
+
 ![Demo](assets/connect.gif)
 ![Demo](assets/upload.gif)
 ![Demo](assets/stream.gif)
 ![Demo](assets/browser.gif)
 ![Demo](assets/implode.gif)
+
+</div>
 
 <div align="center">
 
