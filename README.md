@@ -108,6 +108,8 @@
 
 <img src="assets/image.png" style="border-radius: 50%;" />
 
+---
+
 <div align="center">
   
 ### 👁️ **Preview**
