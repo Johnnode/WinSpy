@@ -114,15 +114,15 @@
   
 ## 👁️ Preview
 
-New connection
+**Completely undetected by every Antivirus**
 ![Demo](assets/connect.gif)
-Uploading and deleting files
+**Completely undetected by every Antivirus**
 ![Demo](assets/upload.gif)
-Livestreaming
+**Completely undetected by every Antivirus**
 ![Demo](assets/stream.gif)
-Grabbing saved credentials
+**Completely undetected by every Antivirus**
 ![Demo](assets/browser.gif)
-Self-destroy
+**Completely undetected by every Antivirus**
 ![Demo](assets/implode.gif)
 
 </div>
