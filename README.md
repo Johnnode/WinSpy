@@ -114,15 +114,10 @@
   
 ## 👁️ Preview
 
-**Completely undetected by every Antivirus**
 ![Demo](assets/connect.gif)
-**Completely undetected by every Antivirus**
 ![Demo](assets/upload.gif)
-**Completely undetected by every Antivirus**
 ![Demo](assets/stream.gif)
-**Completely undetected by every Antivirus**
 ![Demo](assets/browser.gif)
-**Completely undetected by every Antivirus**
 ![Demo](assets/implode.gif)
 
 </div>
