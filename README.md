@@ -114,10 +114,15 @@
   
 ## 👁️ Preview
 
+New connection
 ![Demo](assets/connect.gif)
+Uploading and deleting files
 ![Demo](assets/upload.gif)
+Livestreaming
 ![Demo](assets/stream.gif)
+Grabbing saved credentials
 ![Demo](assets/browser.gif)
+Self-destroy
 ![Demo](assets/implode.gif)
 
 </div>
