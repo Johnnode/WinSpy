@@ -52,6 +52,9 @@
 - Auto-reinstalls persistence on startup
 - Background maintenance thread
 
+### 🌐 **Browser Data**
+- Extract saved passwords, cookies, and payment information from Google Chrome, Brave, Edge, & Avast Secure Browser
+
 ---
 
 ## 📋 Commands (via Telegram)
