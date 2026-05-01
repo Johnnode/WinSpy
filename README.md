@@ -112,7 +112,7 @@
 
 <div align="center">
   
-### 👁️ **Preview**
+## 👁️ Preview
 
 ![Demo](assets/connect.gif)
 ![Demo](assets/upload.gif)
