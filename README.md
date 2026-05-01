@@ -107,7 +107,9 @@
 
 ---
 
-<video src="assets/final.mp4" autoplay loop muted playsinline></video>
+
+
+
 
 <div align="center">
 
