@@ -72,8 +72,8 @@
 | `list`               | List all active connections              |
 | `switch X`           | Switch to connection #X                  |
 | `ss`                 | Take screenshots of all screens          |
-| `rec`                | Record all screens (15s)                 |
-| `audio`              | Record audio (15s)                       |
+| `rec <seconds>`      | Record all screens (default 15s)         |
+| `audio <seconds>`    | Record audio (default 15s)               |
 | `stream`             | Start live multi-monitor stream          |
 | `stopstream`         | Stop the live stream                     |
 | `os`                 | Get detailed system information          |
