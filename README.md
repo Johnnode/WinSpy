@@ -105,7 +105,7 @@
 
 <div align="center">
 
-## 🥷 Stealth
+## 🥷 Detection
 
 **Completely undetected by every Antivirus**
 
