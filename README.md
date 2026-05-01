@@ -22,22 +22,16 @@
 - High-quality JPEG compression with smooth framerate
 - Support for multi-monitor setups
 
-<img src="assets/stream.png" style="border-radius: 50%;" />
-
 ### 📸 **Media & Surveillance**
 - **Screenshot** all screens instantly
 - **Screen Recording** (15 seconds default, configurable)
 - **Audio Recording** (Microphone + Stereo Mix support)
 - Clean temporary file handling
 
-<img src="assets/rec.png" style="border-radius: 50%;" />
-
 ### 📁 **File Management**
 - Upload & Download files
 - Delete files and directories (`rmdir`)
 - Telegram document upload support (with custom destination path in caption)
-  
-<img src="assets/upload.png" style="border-radius: 50%;" />
 
 ### ⚙️ **System Control**
 - Execute CMD and PowerShell commands
@@ -45,15 +39,11 @@
 - Persistence via scheduled task + registry Run key
 - Self-destruct command (`implode`) with clean trace removal
 
-<img src="assets/cmd.png" style="border-radius: 50%;" />
-
 ### 🌐 **C2 Infrastructure**
 - **ngrok TCP tunnel** for reliable connectivity (bypasses most home routers)
 - Persistent reverse connection with keep-alive
 - Multi-client support with easy switching
 - Admin / User rights detection
-
-<img src="assets/rights.png" style="border-radius: 50%;" />
 
 ### 🛡️ **Stealth & Persistence**
 - Runs hidden (`pythonw.exe`)
@@ -107,9 +97,11 @@
 
 ---
 
-
-
-
+<img src="assets/stream.png" style="border-radius: 50%;" />
+<img src="assets/rec.png" style="border-radius: 50%;" />
+<img src="assets/upload.png" style="border-radius: 50%;" />
+<img src="assets/cmd.png" style="border-radius: 50%;" />
+<img src="assets/rights.png" style="border-radius: 50%;" />
 
 <div align="center">
 
