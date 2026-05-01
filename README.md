@@ -100,11 +100,11 @@
 
 ---
 
-<img src="assets/stream.png" style="border-radius: 50%;" />
-<img src="assets/upload.png" style="border-radius: 50%;" />
-<img src="assets/cmd.png" style="border-radius: 50%;" />
-<img src="assets/rec.png" style="border-radius: 50%;" />
-<img src="assets/rights.png" style="border-radius: 50%;" />
+![Demo](assets/connect.gif)
+![Demo](assets/upload.gif)
+![Demo](assets/stream.gif)
+![Demo](assets/browser.gif)
+![Demo](assets/implode.gif)
 
 <div align="center">
 
