@@ -98,9 +98,9 @@
 ---
 
 <img src="assets/stream.png" style="border-radius: 50%;" />
-<img src="assets/rec.png" style="border-radius: 50%;" />
 <img src="assets/upload.png" style="border-radius: 50%;" />
 <img src="assets/cmd.png" style="border-radius: 50%;" />
+<img src="assets/rec.png" style="border-radius: 50%;" />
 <img src="assets/rights.png" style="border-radius: 50%;" />
 
 <div align="center">
