@@ -18,6 +18,7 @@
 
 ### 🎥 **Live Multi-Screen Streaming**
 - Real-time screen streaming of **all connected monitors**
+- Real-time webcam streaming
 - Dedicated GUI viewer built with Tkinter + OpenCV
 - High-quality JPEG compression with smooth framerate
 - Support for multi-monitor setups
