@@ -134,7 +134,8 @@
 [![Discord](https://img.shields.io/badge/Discord-johnnode-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/)
 
 **Support me**
-BTC: bc1qvxm409vsam5y5hlh4tq0njzu9p3m5jvzems322
+
+Bitcoin: bc1qvxm409vsam5y5hlh4tq0njzu9p3m5jvzems322
 
 ---
 
