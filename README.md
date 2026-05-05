@@ -133,6 +133,9 @@
 [![Telegram](https://img.shields.io/badge/Telegram-@Soltrane-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/Soltrane)
 [![Discord](https://img.shields.io/badge/Discord-johnnode-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/)
 
+**Support me**
+BTC: bc1qvxm409vsam5y5hlh4tq0njzu9p3m5jvzems322
+
 ---
 
 ## ⚠️ Disclaimer
