@@ -131,7 +131,7 @@
 
 **Contact me**
 
-[![Session](https://img.shields.io/badge/Session-johnnode-00F782?style=flat&logo=session&logoColor=black)](https://getsession.org/)
+[![Session](https://img.shields.io/badge/Session-05a6a2fa374d915210b133ea3400442d54f844a4843adb3eae18c0902dedb5434b-00F782?style=flat&logo=session&logoColor=black)](https://getsession.org/)
 
 **Support me**
 
