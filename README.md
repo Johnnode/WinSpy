@@ -131,8 +131,7 @@
 
 **Contact me**
 
-[![Telegram](https://img.shields.io/badge/Telegram-@Soltrane-2CA5E0?style=flat&logo=telegram&logoColor=white)](https://t.me/Soltrane)
-[![Discord](https://img.shields.io/badge/Discord-johnnode-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.com/)
+[![Session](https://img.shields.io/badge/Session-johnnode-00F782?style=flat&logo=session&logoColor=black)](https://getsession.org/)
 
 **Support me**
 
