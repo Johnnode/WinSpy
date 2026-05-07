@@ -39,6 +39,8 @@
 - Retrieve detailed system information (OS, hardware, network, uptime, etc.)
 - Persistence via scheduled task + registry Run key
 - Self-destruct command (`implode`) with clean trace removal
+- Self updating client
+- Ransom mode with blocked keyboard, mouse & persistence
 
 ### 🌐 **C2 Infrastructure**
 - **ngrok TCP tunnel** for reliable connectivity (bypasses most home routers)
@@ -64,12 +66,15 @@
 |----------------------|------------------------------------------|
 | `help` / `start`     | Show help menu                           |
 | `list`               | List all active connections              |
+| `update`             | Updates client with new version          |
 | `switch X`           | Switch to connection #X                  |
 | `ss`                 | Take screenshots of all screens          |
 | `rec <seconds>`      | Record all screens (default 15s)         |
 | `audio <seconds>`    | Record audio (default 15s)               |
 | `stream`             | Start live multi-monitor stream          |
 | `stopstream`         | Stop the live stream                     |
+| `ransom`             | triggers ransom                          |
+| `unransom`           | disables ransom                          |
 | `os`                 | Get detailed system information          |
 | `download "PATH"`    | Download file from victim                |
 | `upload "local" "remote"` | Upload file to victim               |
@@ -90,7 +95,7 @@
 - Live stream handler with Tkinter GUI
 - File exfiltration & command execution
 
-**Client (`winspy_client_admin.py`)** – Deployed on target
+**Client (`winspy_client.py`)** – Deployed on target
 - ngrok-based C2 for reliable connection
 - Full persistence + stealth
 - Screenshot, recording, streaming, and command execution capabilities
