@@ -1,164 +1,210 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" alt="Windows">
-<img src="https://img.shields.io/badge/Control-Telegram-blueviolet?style=for-the-badge&logo=telegram" alt="Telegram">
-<img src="https://img.shields.io/badge/Features-Live%20Stream%20%7C%20Screenshot%20%7C%20File%20Exfil-red?style=for-the-badge" alt="Features">
+```
+██╗    ██╗██╗███╗   ██╗███████╗██████╗ ██╗   ██╗
+██║    ██║██║████╗  ██║██╔════╝██╔══██╗╚██╗ ██╔╝
+██║ █╗ ██║██║██╔██╗ ██║███████╗██████╔╝ ╚████╔╝ 
+██║███╗██║██║██║╚██╗██║╚════██║██╔═══╝   ╚██╔╝  
+╚███╔███╔╝██║██║ ╚████║███████║██║        ██║   
+ ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝        ╚═╝   
+```
 
-<h1>🔮 WinSpy</h1>
+**Windows Remote Administration Tool**
 
-**Advanced Windows Remote Access Tool (RAT) controlled via Telegram**
-
-*A stealthy, persistent, and feature-rich remote administration tool for Windows with beautiful live streaming and full remote control.*
-
-</div>
-
----
-
-## ✨ Features
-
-### 🎥 **Live Multi-Screen Streaming**
-- Real-time screen streaming of **all connected monitors**
-- Real-time webcam streaming
-- Dedicated GUI viewer built with Tkinter + OpenCV
-- High-quality JPEG compression with smooth framerate
-- Support for multi-monitor setups
-
-### 📸 **Media & Surveillance**
-- **Screenshot** all screens instantly
-- **Screen Recording** (15 seconds default, configurable)
-- **Audio Recording** (Microphone + Stereo Mix support)
-- Clean temporary file handling
-
-### 📁 **File Management**
-- Upload & Download files
-- Delete files and directories (`rmdir`)
-- Telegram document upload support (with custom destination path in caption)
-
-### ⚙️ **System Control**
-- Execute CMD and PowerShell commands
-- Retrieve detailed system information (OS, hardware, network, uptime, etc.)
-- Persistence via scheduled task + registry Run key
-- Self-destruct command (`implode`) with clean trace removal
-- Self updating client
-- Ransom mode with blocked keyboard, mouse & persistence
-
-### 🌐 **C2 Infrastructure**
-- **ngrok TCP tunnel** for reliable connectivity (bypasses most home routers)
-- Persistent reverse connection with keep-alive
-- Multi-client support with easy switching
-- Admin / User rights detection
-
-### 🛡️ **Stealth & Persistence**
-- Runs hidden (`pythonw.exe`)
-- Copies itself to a hidden directory
-- Hides file attributes (`+h +s`)
-- Auto-reinstalls persistence on startup
-- Background maintenance thread
-
-### 🌐 **Browser Data**
-- Extract saved passwords, cookies, and payment information from Google Chrome, Brave, Edge, & Avast Secure Browser
-
----
-
-## 📋 Commands (via Telegram)
-
-| Command              | Description                              |
-|----------------------|------------------------------------------|
-| `help` / `start`     | Show help menu                           |
-| `list`               | List all active connections              |
-| `update`             | Updates client with new version          |
-| `switch X`           | Switch to connection #X                  |
-| `ss`                 | Take screenshots of all screens          |
-| `rec <seconds>`      | Record all screens (default 15s)         |
-| `audio <seconds>`    | Record audio (default 15s)               |
-| `stream`             | Start live multi-monitor stream          |
-| `stopstream`         | Stop the live stream                     |
-| `ransom`             | triggers ransom                          |
-| `unransom`           | disables ransom                          |
-| `os`                 | Get detailed system information          |
-| `download "PATH"`    | Download file from victim                |
-| `upload "local" "remote"` | Upload file to victim               |
-| `delete "PATH"`      | Delete a file                            |
-| `rmdir "PATH"`       | Delete folder and contents               |
-| `/cmd <command>`     | Run CMD command                          |
-| `/powershell <cmd>`  | Run PowerShell command                   |
-| `browser`            | Automated browser data extraction        |
-| `implode`            | Self-destruct and clean traces           |
-
----
-
-## 🛠️ Architecture
-
-**Controller (`winspy_controller.py`)** – Runs on attacker's machine
-- Telegram bot integration (commands + file upload)
-- Multi-client management
-- Live stream handler with Tkinter GUI
-- File exfiltration & command execution
-
-**Client (`winspy_client.py`)** – Deployed on target
-- ngrok-based C2 for reliable connection
-- Full persistence + stealth
-- Screenshot, recording, streaming, and command execution capabilities
-
-**Stream Module (`winspy_stream.py`)** – Live viewing
-- Multi-monitor support
-- Real-time frame decoding and display
-
----
-
-<div align="center">
-
-## 🥷 Detection
-
-**Completely undetected by every Antivirus**
-
-<img src="assets/image.png" style="border-radius: 50%;" />
-
----
-
-<div align="center">
-  
-## 👁️ Preview
-
-![Demo](assets/connect.gif)
-![Demo](assets/upload.gif)
-![Demo](assets/stream.gif)
-![Demo](assets/browser.gif)
-![Demo](assets/implode.gif)
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square&logo=windows)
+![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
 
 </div>
 
 ---
 
-<div align="center">
+## Overview
 
-## 🚀 Socials
+WinSpy is a Windows remote administration framework consisting of a lightweight Python client and a dark-themed GUI controller. Communication is handled over HTTP with Cloudflare tunnel support for portless, certificate-free connectivity.
 
-**Contact me**
-
-[![Session](https://img.shields.io/badge/Session-05a6a2fa374d915210b133ea3400442d54f844a4843adb3eae18c0902dedb5434b-00F782?style=flat&logo=session&logoColor=black)](https://getsession.org/)
-
-**Support me**
-
-Bitcoin: bc1qvxm409vsam5y5hlh4tq0njzu9p3m5jvzems322
+> **For educational and authorized penetration testing purposes only.**
 
 ---
 
-## ⚠️ Disclaimer
+## Features
 
-This tool is provided for educational and authorized penetration testing purposes only.  
-Unauthorized use against systems you do not own or have explicit permission to access  
-is illegal and violates computer misuse laws in most jurisdictions.
+### 🖥️ HVNC — Hidden Virtual Desktop
+- Full hidden desktop session using Windows `CreateDesktopW`
+- Per-session explorer shell with taskbar and icons
+- Live frame streaming over WebSocket
+- Mouse, keyboard, and scroll input relay
+- One-click launch of CMD, PowerShell, Notepad, Paint, Chrome, and custom executables
+
+### 📸 Capture
+- **Screenshot** — all monitors, uploaded instantly
+- **Screen recording** — configurable duration, all monitors
+- **Webcam** — single-shot and live stream modes
+- **Microphone** — audio recording with configurable duration
+- **Live stream** — real-time WebSocket screen feed
+
+### ⌨️ Keylogger
+- Low-level `WH_KEYBOARD_LL` hook
+- Window title tagging per keystroke
+- Start / dump / stop commands
+
+### 🗂️ File System
+- Full file browser with tree navigation
+- Upload and download files bidirectionally
+- Create, rename, delete files and folders
+- Directory listing via terminal
+
+### ⚙️ System
+- System info (OS, CPU, RAM, network, user, privileges)
+- Process manager — list and kill by PID
+- Clipboard read and write
+- Browser history (Chrome, Edge, Brave)
+- Installed tools enumeration
+
+### 🔒 Control
+- Screen lock with low-level keyboard and mouse hooks
+- Remote shell with full command output
+- Self-update — push new client binary from controller
+- Single-instance lock via UDP port binding
+
+### 🌐 C2 Transport
+- HTTP polling with Cloudflare tunnel integration
+- Automatic tunnel startup from the controller
+- SSL verification bypass for self-signed / tunnel certs
+- Configurable reconnect interval
 
 ---
 
-## 📄 License
+## Architecture
 
-This project is for research and educational use only.
+```
+┌─────────────────────────┐        HTTP / WebSocket        ┌──────────────────────┐
+│   gui_controller.pyw    │ ◄─────────────────────────────► │  winspy_client.py    │
+│                         │                                 │                      │
+│  ┌─────────────────┐    │    Cloudflare Tunnel (wss://)   │  ┌────────────────┐  │
+│  │  Quick Actions  │    │ ◄─────────────────────────────► │  │  HVNC Module   │  │
+│  │  Terminal       │    │                                 │  │  Keylogger     │  │
+│  │  HVNC Viewer   │    │                                 │  │  Capture       │  │
+│  │  File Browser  │    │                                 │  │  HTTP Manager  │  │
+│  │  Proc Manager  │    │                                 │  └────────────────┘  │
+│  │  Telegram       │    │                                 └──────────────────────┘
+│  │  Builder        │    │
+│  └─────────────────┘    │
+└─────────────────────────┘
+```
 
 ---
 
-*Made with ❤️ for the Red Team community*  
-*Stay stealthy. Stay curious.*
+## Controller Tabs
 
-</div>
+| Tab | Description |
+|-----|-------------|
+| **Quick Actions** | One-click screenshot, record, webcam, keylogger, HVNC, file browser, process manager |
+| **Terminal** | Interactive remote shell with command history |
+| **Telegram** | Configure bot token and chat ID; send files and notifications |
+| **Downloads** | View and save all files uploaded from the client |
+| **Builder** | Generate and optionally compile a configured client |
+
+---
+
+## Builder
+
+The builder patches a copy of `winspy_client.py` with your configuration and optionally compiles it to a standalone EXE via PyInstaller.
+
+**Configurable options:**
+
+| Option | Description |
+|--------|-------------|
+| C2 Host / Port | Controller address the client beacons to |
+| Reconnect interval | Seconds between reconnect attempts |
+| Mutex name | Prevents multiple client instances |
+| Install path | Where the client copies itself on the target |
+| Persistence | `Task Scheduler`, `Run Key`, `Both`, or `None` |
+| Anti-Debug | Detects debugger presence and exits |
+| Anti-VM | Detects sandbox / VM environment and exits |
+| Watchdog | Spawns a monitor process that respawns the client if killed |
+| UAC bypass | Attempts privilege escalation on startup |
+| Stealth mode | Suppresses all console output |
+| PyInstaller | `--onefile`, `--noconsole`, `--upx`, custom icon |
+
+---
+
+## Requirements
+
+### Controller
+```
+Python 3.10+
+customtkinter
+requests
+Pillow
+opencv-python
+cloudflared  (on PATH, for tunnel support)
+```
+
+### Client (auto-installed on first run)
+```
+Python 3.10+
+requests
+websocket-client
+Pillow
+pywin32
+pyinstaller  (optional, for builder)
+```
+
+---
+
+## Setup
+
+**1. Clone the repo**
+```bash
+git clone https://github.com/youruser/winspy.git
+cd winspy
+```
+
+**2. Install controller dependencies**
+```bash
+pip install customtkinter requests pillow opencv-python
+```
+
+**3. Configure Cloudflare tunnel** *(optional but recommended)*
+
+Place your tunnel token and hostname in the controller config. The controller starts and stops cloudflared automatically per session.
+
+**4. Launch the controller**
+```bash
+pythonw gui_controller.pyw
+```
+
+**5. Build a client**
+
+Open the **Builder** tab, configure your C2 settings, select evasion options, and click **Build**. Deploy the output to the target.
+
+---
+
+## HVNC Usage
+
+1. Connect a client
+2. Click **Quick Actions → HVNC → Start**
+3. Wait for the viewer window to show a live frame
+4. Click **Explorer** in the HVNC toolbar to initialize the hidden desktop shell
+5. Use CMD, PowerShell, Chrome, or **Run…** to launch applications on the hidden desktop
+
+The hidden desktop is completely invisible to the target user. All activity occurs in an isolated `WinSta0\WinSpy_HVNC` desktop session.
+
+---
+
+## Project Structure
+
+```
+winspy/
+├── gui_controller.pyw   # Controller GUI (run with pythonw)
+├── winspy_client.py     # Client agent
+└── README.md
+```
+
+---
+
+## Disclaimer
+
+This tool is provided for **authorized security research and educational purposes only**. Using WinSpy against systems you do not own or have explicit written permission to test is illegal. The authors accept no liability for misuse.
