@@ -85,9 +85,9 @@ WinSpy is a Windows remote administration framework consisting of a lightweight 
 │  ┌─────────────────┐    │    Cloudflare Tunnel (wss://)   │  ┌────────────────┐  │
 │  │  Quick Actions  │    │ ◄─────────────────────────────► │  │  HVNC Module   │  │
 │  │  Terminal       │    │                                 │  │  Keylogger     │  │
-│  │  HVNC Viewer   │    │                                 │  │  Capture       │  │
-│  │  File Browser  │    │                                 │  │  HTTP Manager  │  │
-│  │  Proc Manager  │    │                                 │  └────────────────┘  │
+│  │  HVNC Viewer    │    │                                 │  │  Capture       │  │
+│  │  File Browser   │    │                                 │  │  HTTP Manager  │  │
+│  │  Proc Manager   │    │                                 │  └────────────────┘  │
 │  │  Telegram       │    │                                 └──────────────────────┘
 │  │  Builder        │    │
 │  └─────────────────┘    │
