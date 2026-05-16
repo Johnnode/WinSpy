@@ -79,7 +79,7 @@ WinSpy is a Windows remote administration framework consisting of a lightweight 
 ## Architecture
 
 ```
-┌─────────────────────────┐        HTTP / WebSocket        ┌──────────────────────┐
+┌─────────────────────────┐        HTTP / WebSocket         ┌──────────────────────┐
 │   gui_controller.pyw    │ ◄─────────────────────────────► │  winspy_client.py    │
 │                         │                                 │                      │
 │  ┌─────────────────┐    │    Cloudflare Tunnel (wss://)   │  ┌────────────────┐  │
